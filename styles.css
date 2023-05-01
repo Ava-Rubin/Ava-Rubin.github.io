@@ -1,18 +1,49 @@
+html {
+	overflow-x: hidden;
+}
+
 body {
 	background-color: #111111;
-	
 }
 h1 { 
+	text-align: center;
 	font-family: "Righteous", cursive;
 	color: white;
-	font-size: 1000%;
+	font-size: 17vw;
+	margin-bottom: 0px;
+	margin-top: 7vw;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	
+
 }
 h2 {
+	text-align: left;
+	margin-left: 11vw;
 	font-family: "Urbanist", sans-serif;
 	font-weight: 200;
 	color: #FFF8E7;
-	font-size: 150%;
+	font-size: 2.8vw;
 }
 p {
 	color: #FFF8E7;
+}
+.navbar {
+	max-width: 100vw;
+	margin-left: 3vw;
+	margin-right: 3vw; 
+	overflow: auto;
+}
+
+.arrow {
+	width: 2vw;
+	margin-top: .71vw;
+}
+
+.logo {
+	font-family: "Urbanist", sans-serif;
+	font-size: 3.5vw;
+	letter-spacing: -.25em;
+	color: #FFF8E7;
+	float: left;
 }
