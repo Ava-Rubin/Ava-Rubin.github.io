@@ -1,10 +1,18 @@
 body {
-    background-color: #111111;
-  }
-  h1 { 
-    color: white;
-    font-size: 300%;
-  }
-  p {
-    color: #FFF8E7;
-  }
+	background-color: #111111;
+	
+}
+h1 { 
+	font-family: "Righteous", cursive;
+	color: white;
+	font-size: 1000%;
+}
+h2 {
+	font-family: "Urbanist", sans-serif;
+	font-weight: 200;
+	color: #FFF8E7;
+	font-size: 150%;
+}
+p {
+	color: #FFF8E7;
+}
