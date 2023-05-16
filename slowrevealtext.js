@@ -8,5 +8,3 @@ function printLetterByLetter(destination, message, speed){
         }
     }, speed);
 }
-
-printLetterByLetter("msg", "Hello world, bonjour le monde.", 100);
