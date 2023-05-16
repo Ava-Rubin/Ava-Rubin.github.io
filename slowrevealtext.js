@@ -20,9 +20,9 @@ function printCurrDate(){
     var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
     day = days[currDate.getDay()];
 
-    hour = currDate.getHours();
-    min = currDate.getMinutes();
-    sec = currDate.getSeconds();
+    hour = currDate.getHours().toString().padStart(2, '0');
+    min = currDate.getMinutes().toString().padStart(2, '0');
+    sec = currDate.getSeconds().toString().padStart(2, '0');
 
     printDate = "Last login: " + day + " " + month + " " + date + " " + hour + ":" + min + ":" +sec;
 
