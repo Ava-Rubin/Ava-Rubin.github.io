@@ -27,9 +27,14 @@ function printCurrDate(){
 
     printDate = "Last login: " + day + " " + month + " " + date + " " + hour + ":" + min + ":" +sec;
 
-    printLetterByLetter('msg',printDate,100);
+    printLetterByLetter('lastlogin',printDate,100);
 
     
+}
+
+function printStarterText(){
+    printCurrDate();
+    printLetterByLetter('defaultmsg', 'avarubin@Avas-Portfolio ~ %', 100);
 }
 
 
