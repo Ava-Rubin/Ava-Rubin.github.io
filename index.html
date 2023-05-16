@@ -6,13 +6,13 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+	<script src="slowrevealtext.js"></script>
 </head>
-<body onload="printLetterByLetter('msg', 'Hello world, bonjour le monde.', 100)">
+<body onclick="printCurrDate();">
 	
 	<div id="fauxterminal" >
         <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-        <script src="slowrevealtext.js"></script>
+        
 		<div id="fauxterminalheader">
 			<button class="redbutton"></button>	
 			<button class="yellowbutton"></button>	
@@ -21,7 +21,6 @@
 			avarubin -- -myportfolio -- 2023</div>
 		
 		<div id="msg"></div>
-		
       </div>
 	<script src="terminalscript.js"></script>
 	<nav class="navbar">

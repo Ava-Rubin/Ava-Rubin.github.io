@@ -15,7 +15,8 @@ body{
     border-radius: 15px;
     text-indent: 10px;
     font-family: 'Courier New', Courier, monospace;
-    box-shadow: 0 0 3px rgb(76, 76, 76);
+    color: #111;
+    box-shadow: 0 0 3px rgb(112, 112, 112);
   }
   
 #fauxterminalheader {
