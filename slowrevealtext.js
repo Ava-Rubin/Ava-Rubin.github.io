@@ -10,7 +10,6 @@ function printLetterByLetter(destination, message, speed){
 }
 
 function printCurrDate(){
-    
     currDate =  new Date();
     
     var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August','September','November','December'];
@@ -28,8 +27,6 @@ function printCurrDate(){
     printDate = "Last login: " + day + " " + month + " " + date + " " + hour + ":" + min + ":" +sec;
 
     printLetterByLetter('lastlogin',printDate,100);
-
-    
 }
 
 function printStarterText(){
