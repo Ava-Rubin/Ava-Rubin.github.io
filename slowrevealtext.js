@@ -31,7 +31,10 @@ function printCurrDate(){
 
 function printStarterText(){
     printCurrDate();
-    printLetterByLetter('defaultmsg', 'avarubin@Avas-Portfolio ~ %', 100);
+    setTimeout(function() {
+        printLetterByLetter('defaultmsg', 'avarubin@Avas-Portfolio ~ %', 100);
+      }, 4000);
+    
 }
 
 
