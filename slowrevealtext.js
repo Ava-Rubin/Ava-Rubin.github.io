@@ -26,15 +26,22 @@ function printCurrDate(){
 
     printDate = "Last login: " + day + " " + month + " " + date + " " + hour + ":" + min + ":" +sec;
 
-    printLetterByLetter('lastlogin',printDate,100);
+    printLetterByLetter('lastlogin',printDate,65);
 }
 
 function printStarterText(){
     printCurrDate();
     setTimeout(function() {
-        printLetterByLetter('defaultmsg', 'avarubin@Avas-Portfolio ~ %', 100);
-      }, 4000);
-    
+        printLetterByLetter('defaultmsg', 'avarubin@Avas-Portfolio ~ % ', 65);
+      }, 2600);
+      setTimeout(function() {
+        printLetterByLetter('defaultmsg', 'ls', 65);
+      }, 5000);
+      setTimeout(function() {
+        document.getElementById('project1').innerHTML = 'project 1';
+        document.getElementById('project2').innerHTML = 'project 2';
+        document.getElementById('project3').innerHTML = 'project 3';
+      }, 5600);
 }
 
 
