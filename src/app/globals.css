@@ -2,29 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 179, 174, 195;
+  --background-rgb: 5, 0, 12;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-rgb));
 }
+
+h2 {
+  @apply font-worksans text-[5.625rem] font-light;
+}
+
+h1 {
+  @apply font-worksans text-[10.3rem] font-medium leading-none;
+}
+
+.hero-section {
+  @apply min-h-screen mt-16 ml-24 mr-24;
+}
+
+.banner {
+  @apply flex gap-14 items-center justify-center text-[2.6rem] font-worksans tracking-[1.8rem];
+
+}
+.code-sample {
+  @apply h-[40rem] rounded-[4rem] border-main-blue border-4 my-24; 
+}
+
 
 @layer utilities {
   .text-balance {
