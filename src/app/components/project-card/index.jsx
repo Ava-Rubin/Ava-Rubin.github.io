@@ -1,7 +1,8 @@
 import React from 'react';
+import Image from "next/image";
 import './styles.css';
 import '../../globals.css';
-const ProjCard = ({title,startDate,endDate,stack, color}) => {  
+const ProjCard = ({title,startDate,endDate,stack, color, img}) => {  
 
     const strokeColor = {
         'text-th-red': '#F34734',
@@ -18,11 +19,18 @@ const ProjCard = ({title,startDate,endDate,stack, color}) => {
             </svg>
         </div>
         
-        <div className="transform transition-transform hover:rotate-3">
+        <div className="">
             <h3 className={color}>{title}</h3>
             <div className='content-container'>
                 <div>
                 <div className='proj-image'>
+                    <Image
+                    src={img}
+                    alt={title}
+                    fill={true}
+                    style={{objectFit: "cover"}}
+                    priority
+                    />
                 </div>
                 <p className='proj-sub-text'>{startDate} - {endDate}</p>
                 </div>

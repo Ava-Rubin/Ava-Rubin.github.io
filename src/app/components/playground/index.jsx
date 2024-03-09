@@ -1,6 +1,8 @@
 import React from "react";
 import PlaygroundCard from "../playground-card";
 import './styles.css';
+import Image from "next/image";
+
 
 const Playground = () => { 
     return (
@@ -23,7 +25,7 @@ const Playground = () => {
                     <PlaygroundCard
                         title="PERSONAL"
                         subtitle="CUSTOM FANTASY FOOTBALL DASHBOARD"
-                        desc="to give managers a comprehensive view of their team--including the latest news, reccomended trades, and more"
+                        desc="to give managers a comprehensive view of their team--including the latest news, recommended trades, and more"
                         stack={['REACT','AUTH/API','FIGMA']}
                     />
                     <PlaygroundCard
@@ -33,7 +35,17 @@ const Playground = () => {
                         stack={['ILLUSTRATOR','INDESIGN','FIGMA']}
                     />
                     <div className="flex flex-col justify-end h-[26rem] w-full">
-                        <div className="rounded-[300px] w-[20rem] h-[20rem] border-2 border-white"></div>
+                        <div>
+                        <div className="rounded-[300px] w-[20rem] h-[20rem] border-2 border-white relative overflow-hidden">
+                            <Image
+                                src='/Ava.jpeg'
+                                alt='Headshot'
+                                fill={true}
+                                style={{objectFit: "cover"}}
+                                priority
+                            />
+                        </div>
+                        </div>
                         <div className="text-center w-[20rem] leading-none">
                             <p className="me-text mt-4">COMPUTER SCIENCE &</p>
                             <p className="me-text">DESIGN STUDENT</p>

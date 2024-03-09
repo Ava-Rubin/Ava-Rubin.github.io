@@ -10,7 +10,7 @@ h3 {
 }
 
 .proj-image{
-    @apply w-[70rem] h-[35rem] border-white border-[3px];
+    @apply w-[70rem] h-[35rem] border-white border-[3px] mb-2 relative overflow-hidden transform transition-transform hover:scale-105;
 }
 
 .content-container{
