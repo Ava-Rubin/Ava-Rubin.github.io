@@ -2,11 +2,16 @@ import Image from "next/image";
 import './globals.css';
 import ProjCard from "./components/project-card";
 import Playground from "./components/playground";
+import Head from 'next/head';
 
 
 export default function Home() {
   return (
     <>
+    <Head>
+        <link rel="icon" href="/favicon.ico" />
+        {/* Other meta tags */}
+      </Head>
       <div className="hero-section">
         <h2>ava rubin</h2>
         <h1>FULL STACK</h1>
