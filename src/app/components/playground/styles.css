@@ -6,20 +6,15 @@ h3 {
 }
 
 .proj-sub-text {
-    @apply text-white font-light font-worksans text-[1.9rem] tracking-[0.5rem] leading-loose;
+    @apply text-white font-light font-worksans text-[1.9rem] xs:tracking-[0.2rem] sm:tracking-[0.5rem] leading-loose;
 }
 
-.proj-image{
-    @apply w-[70rem] h-[35rem] border-white border-[3px];
-}
-
-.content-container{
-    @apply flex;
-}
-
-.proj-container{
-    @apply ml-24 mt-16;
-}
 .me-text {
     @apply text-white font-worksans font-medium text-[1rem];
+}
+
+@screen sm{
+    .pg-grid{
+        @apply grid grid-rows-2 grid-cols-2 gap-24 w-full h-auto pr-24;
+    }
 }

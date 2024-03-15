@@ -13,7 +13,7 @@ const ProjCard = ({title,startDate,endDate,stack, color, img, link}) => {
 
     return (
       <div className='proj-container content-container'>
-        <div className='mr-24 pt-[2.3rem]'>
+        <div className='mr-[6%] pt-[2.3rem]'>
             <svg width="55" height="4" viewBox="0 0 55 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line y1="2" x2="55" y2="2" stroke={strokeColor[color]} strokeWidth="4"/>
             </svg>
@@ -36,7 +36,7 @@ const ProjCard = ({title,startDate,endDate,stack, color, img, link}) => {
                 </a>
                 <p className='proj-sub-text'>{startDate} - {endDate}</p>
                 </div>
-                <div className='ml-14'>
+                <div className='sm:ml-14'>
                     {stack.map((_, index) => (
                         <p className='proj-sub-text' key={index}>{stack[index]}</p>
                     ))}

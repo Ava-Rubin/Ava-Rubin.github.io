@@ -6,17 +6,17 @@ h3 {
 }
 
 .proj-sub-text {
-    @apply text-white font-light font-worksans text-[1.9rem] tracking-[0.5rem] leading-loose;
+    @apply text-white font-light font-worksans text-[1.9rem]  xs:tracking-[0.25rem] sm:tracking-[0.5rem] leading-loose;
 }
 
 .proj-image{
-    @apply w-[70rem] h-[35rem] border-white border-[3px] mb-2 relative overflow-hidden transform transition-transform hover:scale-105;
+    @apply xs:w-[100vw] xs:h-[50vw] sm:w-[60vw] sm:h-[30vw] border-white border-[3px] mb-2 relative overflow-hidden transform transition-transform hover:scale-105;
 }
 
 .content-container{
-    @apply flex;
+    @apply sm:flex;
 }
 
 .proj-container{
-    @apply ml-24 mt-16 ;
+    @apply  xs:mx-4 sm:ml-24 mt-16;
 }

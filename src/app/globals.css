@@ -17,19 +17,19 @@ body {
 }
 
 h2 {
-  @apply font-worksans text-[5.625rem] font-light;
+  @apply font-worksans xs:text-[9vw] sm:text-[5.625rem] font-light;
 }
 
 h1 {
-  @apply font-worksans text-[10.3rem] font-medium leading-none;
+  @apply font-worksans xs:text-[13vw] sm:text-[10.3rem] font-medium leading-none;
 }
 
 .hero-section {
-  @apply mt-16 ml-24 mr-24 mb-24;
+  @apply xs:mx-4 sm:mt-16 sm:ml-24 sm:mr-24 sm:mb-24 w-[80vw];
 }
 
 .banner {
-  @apply flex gap-14 items-center justify-center text-[2.6rem] font-worksans tracking-[1.8rem];
+  @apply flex xs:gap-2 sm:gap-14 items-center justify-center xs:mt-10 xs:text-[1.5rem] sm:text-[2.6rem] font-worksans sm:tracking-[1.8rem] text-black bg-main-blue sm:h-[6.75rem];
 
 }
 .code-sample {

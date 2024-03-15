@@ -7,7 +7,7 @@ import Image from "next/image";
 const Playground = () => { 
     return (
         <div className='proj-container content-container'>
-        <div className='mr-24 pt-[2.3rem]'>
+        <div className='mr-[6%] pt-[2.3rem]'>
             <svg width="55" height="4" viewBox="0 0 55 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line y1="2" x2="55" y2="2" stroke="#B16286" strokeWidth="4"/>
             </svg>
@@ -15,20 +15,20 @@ const Playground = () => {
         
         <div>
             <h3 className="text-th-purp">PLAYGROUND</h3>
-                <div className="grid grid-rows-2 grid-cols-2 gap-24 w-[85rem] h-[50rem]">
-                    <PlaygroundCard
-                        title="DATA SCIENCE"
-                        subtitle="AN ANALYSIS OF PROFESSIONAL ATHLETE PERFORMANCE"
-                        desc="following an event that garnered negative media attention"
-                        stack={['PYTHON','BEAUTIFULSOUP','PANDAS','MATPLOTLIB']}
-                        link=""
-                    />
+                <div className="pg-grid">
                     <PlaygroundCard
                         title="PERSONAL"
                         subtitle="CUSTOM FANTASY FOOTBALL DASHBOARD"
                         desc="to give managers a comprehensive view of their team--including the latest news, recommended trades, and more"
                         stack={['REACT','AUTH/API','FIGMA']}
                         link="https://github.com/Ava-Rubin/fantasy-football"
+                    />
+                    <PlaygroundCard
+                        title="DATA SCIENCE"
+                        subtitle="AN ANALYSIS OF PROFESSIONAL ATHLETE PERFORMANCE"
+                        desc="following an event that garnered negative media attention"
+                        stack={['PYTHON','PANDAS','MATPLOTLIB']}
+                        link=""
                     />
                     <PlaygroundCard
                         title="DESIGN"

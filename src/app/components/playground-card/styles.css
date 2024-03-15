@@ -17,17 +17,6 @@ h4 {
     @apply m-6 pr-14 text-white font-light font-worksans text-[1.5rem] italic leading-none tracking-[0.5rem];
 }
 
-.proj-image{
-    @apply w-[70rem] h-[35rem] border-white border-[3px];
-}
-
-.content-container{
-    @apply flex;
-}
-
-.proj-container{
-    @apply ml-24 mt-16;
-}
 
 .tag{
     @apply bg-[#828085] rounded-[50px] border-[1px] border-white text-[1rem] font-light font-worksans text-white px-4 py-[.25px] mr-4;
