@@ -21,18 +21,21 @@ const Playground = () => {
                         subtitle="AN ANALYSIS OF PROFESSIONAL ATHLETE PERFORMANCE"
                         desc="following an event that garnered negative media attention"
                         stack={['PYTHON','BEAUTIFULSOUP','PANDAS','MATPLOTLIB']}
+                        link=""
                     />
                     <PlaygroundCard
                         title="PERSONAL"
                         subtitle="CUSTOM FANTASY FOOTBALL DASHBOARD"
                         desc="to give managers a comprehensive view of their team--including the latest news, recommended trades, and more"
                         stack={['REACT','AUTH/API','FIGMA']}
+                        link=""
                     />
                     <PlaygroundCard
                         title="DESIGN"
                         subtitle="SOME POSTERS & OTHER PROJECTS I’VE MADE & WORKED ON"
                         desc="includes graphic, UI/UX, and web design"
                         stack={['ILLUSTRATOR','INDESIGN','FIGMA']}
+                        link=""
                     />
                     <div className="flex flex-col justify-end h-[26rem] w-full">
                         <div>

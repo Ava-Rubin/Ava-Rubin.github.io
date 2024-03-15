@@ -25,7 +25,7 @@ h1 {
 }
 
 .hero-section {
-  @apply min-h-screen mt-16 ml-24 mr-24;
+  @apply mt-16 ml-24 mr-24 mb-24;
 }
 
 .banner {

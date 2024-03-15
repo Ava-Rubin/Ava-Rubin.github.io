@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import './styles.css';
 import '../../globals.css';
-const ProjCard = ({title,startDate,endDate,stack, color, img}) => {  
+const ProjCard = ({title,startDate,endDate,stack, color, img, link}) => {  
 
     const strokeColor = {
         'text-th-red': '#F34734',
@@ -19,10 +19,11 @@ const ProjCard = ({title,startDate,endDate,stack, color, img}) => {
             </svg>
         </div>
         
-        <div className="">
+        <div>
             <h3 className={color}>{title}</h3>
             <div className='content-container'>
                 <div>
+                <a href={link} target="_blank">
                 <div className='proj-image'>
                     <Image
                     src={img}
@@ -32,6 +33,7 @@ const ProjCard = ({title,startDate,endDate,stack, color, img}) => {
                     priority
                     />
                 </div>
+                </a>
                 <p className='proj-sub-text'>{startDate} - {endDate}</p>
                 </div>
                 <div className='ml-14'>
