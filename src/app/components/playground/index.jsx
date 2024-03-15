@@ -28,14 +28,14 @@ const Playground = () => {
                         subtitle="CUSTOM FANTASY FOOTBALL DASHBOARD"
                         desc="to give managers a comprehensive view of their team--including the latest news, recommended trades, and more"
                         stack={['REACT','AUTH/API','FIGMA']}
-                        link=""
+                        link="https://github.com/Ava-Rubin/fantasy-football"
                     />
                     <PlaygroundCard
                         title="DESIGN"
                         subtitle="SOME POSTERS & OTHER PROJECTS I’VE MADE & WORKED ON"
                         desc="includes graphic, UI/UX, and web design"
                         stack={['ILLUSTRATOR','INDESIGN','FIGMA']}
-                        link=""
+                        link="https://avarubin.wixsite.com/portfolio"
                     />
                     <div className="flex flex-col justify-end h-[26rem] w-full">
                         <div>
